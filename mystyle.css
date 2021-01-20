@@ -1,7 +1,7 @@
 
 body {
 	background-color: #B7CEEC;
-     }
+}
 p {
 	margin-right:45px;
 }
@@ -15,10 +15,20 @@ h1 {
 table, th, td { 
 	border: 2px solid #736AFF;
 	padding: 10px;
-	margin-left: 35px;
+	margin-left: 0px;
 }
 
 ul.beaty {
 	background-color: yellow;
 	margin-right: 45px;
+}
+ol, li *{   
+	background-color: yellow;
+	margin-right: 45px;
+}
+li[target=fav] {
+	color: red;
+}
+a.highlight:hover {
+	color: red;
 }
