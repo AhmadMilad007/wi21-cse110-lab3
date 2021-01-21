@@ -32,3 +32,18 @@ li[target=fav] {
 a.highlight:hover {
 	color: red;
 }
+
+tr td {  
+
+	background-color :#0ED7CD ;
+}
+
+tr > th {
+	background-color: #736AFF;
+}
+form ~ h5 {
+	color: #736AFF;
+}
+form + button {
+	background-color: #736AFF;
+}
