@@ -1,6 +1,10 @@
 
 body {
 	background-color: #B7CEEC;
+	border: 5px outset white;
+	padding: 15px;
+	margin: 70px
+	
 	
 }
 img {
@@ -14,16 +18,19 @@ p {
 	margin-right:45px;
 }
 h1 {
+	font-size: 2em;
 	color: #736AFF;
 }
 h3 {
-	color: #735AFF
+	font-size: 120%;
+	color: #735AFF;
 }
 
 #para1 {
 	color: #736AFF;
 }
 table, th, td { 
+	font-size: 1.5vw;
 	border: 2px solid #736AFF;
 	padding: 10px;
 	margin-left: 0px;
@@ -31,11 +38,11 @@ table, th, td {
 
 ul.beaty {
 	background-color: rgba(0,0,255,0.1);
-	margin-right: 45px;
+	margin-right: 1cm;
 }
 ol, li *{   
 	background-color: rgba(0,255,0,0.1);
-	margin-right: 45px;
+	margin-right: 0.2in;
 }
 li[target=fav] {
 		   color: hsl(357, 100%, 50%);
@@ -60,4 +67,10 @@ form + button {
 	background-color: rgb(0, 191,255);
 }
 
+#para2 {
+
+	border-style: outset;
+	border-radius: 40mm 40mm
+
+}
 
