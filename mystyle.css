@@ -1,5 +1,7 @@
 
-
+@media screen and (max-width: 1000px){
+	background-color: #FF68E3;
+}
 body {
 	background-color: #B7CEEC;
 	border: 5px outset white;
@@ -14,6 +16,7 @@ img {
 	border-color: white;
 	border-width: solid;
 	border-radius: 45px 45px; 
+	position: static;
 	
     }
 p {
@@ -49,6 +52,7 @@ table, th, td {
 ul.beaty {
 	background-color: rgba(0,0,255,0.1);
 	margin-right: 1cm;
+	position: relative; 
 }
 ol, li *{   
 	background-color: rgba(0,255,0,0.1);
@@ -59,6 +63,16 @@ li[target=fav] {
 }
 a.highlight:hover {
 	color: red;
+	font-family: "Audiowide", sans-serif;
+	font-size: 50px;
+	text-align:center;
+}
+table.highlight:hover {
+	background-color: red;
+	color: white; 
+	border-style: outset;
+	border-radius: 200px 200px;
+
 }
 
 tr td {  
@@ -85,7 +99,7 @@ form + button {
 }
 #para3 {
 	font-family: "Audiowide", sans-serif;
-	text-shadow: 3px 3px 3px #ababab
+	text-shadow: 3px 3px 3px #ababab;
 	text-align: center;
 	border:outset;
 	height: 3cm;
@@ -93,4 +107,88 @@ form + button {
 	text-decoration: line-through;
 	font-size: 60px;
 }
+em {
+	color: blue;
+    }
+em.emC {
+	display: inline;
+	max-width: 100%; 
+	}
+p.cl {
+		display: block; 
+			color: brown;
+				font-size: 100px;
+					margin-left: 3cm;
+					
+	}
+span.spa {
+	background-color: red;
+	font-size: 35px;
+	min-width: 90%:
+}
+h3:active {
+	font-size: 100px;
+		font-family: "Audiowide", sans-serif;
 
+}
+button:active {
+	 background-color: yellow;
+}
+.box {
+	display: flex;
+	
+
+}
+.b1 {
+	flex: 1;
+	flex-grow: 3;
+	color:white;
+           background-color: red;
+   		text-align: center;
+	   
+	
+}
+.b2 {
+	flex: 1;
+	flex-basis: 200px;
+	color: white;
+		background-color: blue;
+		text-align: center;
+
+	}
+.b3 {
+	flex: 1;
+	color:white;
+	flex-grow: 2;
+	        background-color: green;
+		text-align: center;
+		
+	}
+.flex-box {
+	background-color: silver;
+	display: flex;
+	flex-wrap:wrap;
+	border: dotted;
+	}
+.flex-box > div {
+		
+		width: 300px;
+		margin: 10px;
+		padding: 15px;
+		font-size: 30px;
+		text-align: center;
+
+	}
+.box-grid {
+	width:10px;
+	background-color: silver;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-auto-flow: row;
+	}
+.box-grid > div {
+	background-color: green;
+	color: white;
+	text-align: center;
+	}
