@@ -13,7 +13,6 @@
   - General sibling combinator (element ~ element)
   - Adjacent sibling combinator (element + element)
   - Combining Two Selectors (element.class)
-  
 ## CSS Topics
   - Comments
   - Colors
