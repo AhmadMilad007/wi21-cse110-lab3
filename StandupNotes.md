@@ -35,7 +35,7 @@
   - Short (margin: top right bottom left)
   - auto
 ## Flexbox (Links to an external site.)
-
+  - A flexbox with images inside 
 ## Media Query
   - At least one query based on the screen width
   
